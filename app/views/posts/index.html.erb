@@ -22,6 +22,6 @@
     <% end %>
   </tbody>
 </table>
-<br>
 <%= link_to 'New Post', new_post_path %>
-<br>
+<br><br>
+<%= link_to  "sign out as admin", destroy_admin_session_path, method: :delete %>
